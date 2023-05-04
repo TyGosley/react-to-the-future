@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from "react";
 import './App.css';
 import Header from "./components/Header";
-import Projects from "./components/Projects";
 import Nav from "./components/Nav";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -11,20 +13,8 @@ function App() {
   <Header/>
   <Nav/>
   <main>
-    <section id="about" className="text-center">
-      <h2>About Me</h2>
-      <img className="profile-photo" src={require("./images/visionary.jpg")} alt="Photo of Tyler overlooking NYC" />
-      <p>
-        My name is Tyler Gosley. I am an aspiring computer programmer who
-        wants to specialize in building and designing awesome websites,
-        applications, and everything in between. I am also an aspiring
-        Computer Programming Employment Concierge who wants to help those in
-        the industry find the perfect fit.
-      </p>
-    </section>
-   
-    <h2 className="text-center">My Projects</h2>
-    <Projects/>
+  <About/>
+  <Projects/>
 
     {/* skills section */}
     <section id="skills" className="text-center">
