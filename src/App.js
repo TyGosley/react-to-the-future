@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
       <div>
   <Header/>
+  <Nav/>
   <main>
     <section id="about" className="text-center">
       <h2>About Me</h2>
