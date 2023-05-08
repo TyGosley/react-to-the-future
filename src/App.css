@@ -38,12 +38,10 @@
 }
 
 :root {
-  --american-blue: #4a406c;
-  --purple-navy: #655784;
-  --deep-amethyst: #9085a7;
-  --glossy-grape: #a499b6;
-  --white-coffee: #e4e1d9;
-  --anti-flash-white: #f2f5f3;
+  --gray: #DDDBDE;
+  --baby-blue-gray: #CAD4DF;
+  --gun-metal-gray: #656E77;
+  --skyscraper-night-gray: #3B373B;
 }
 
 * {
@@ -52,39 +50,81 @@
 }
 /* General styles */
 body {
+  color: var(--gun-metal-gray);
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100;
 }
 
-main {
+/* main {
   background-color: var(--white-coffee);
-  /* padding-top: 100px; */
+  padding-top: 100px;
   padding: 20px;
-}
+} */
 
 /* Header styles */
 header {
-  text-align: center;
-  background: linear-gradient(
-    90deg,
-    #e4e1d9,
-    #a499b6,
-    #9085a7,
-    #655784,
-    #4a406c
-  );
-  color: var(--anti-flash-white);
-  border-radius: 0.5rem black;
-  transition: all 0.5s ease-in-out;
-  box-shadow: inset 0rem 0rem 0.5rem var(--glossy-grape),
-    0 0 0.9375rem var(--deep-amethyst);
+  padding: 20px 35px;
+  background-color: #D5F2EA;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../src/images/skyscraperback.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--gray);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-  margin: 0;
-  color: var(--white-coffee);
+header button {
+  background-color: var(--baby-blue-gray);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: var(--skyscraper-night-gray);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ 
 }
+
+header button:hover {
+  background-color: var(--gray);
+  color: var(--skyscraper-night-gray);
+}
+
+/* header nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+/* Hero Styles  */
+.hero {
+  background-image: url("../src/images/skyscraperback.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 100%;
+}
+
 
 h2 {
   color: var(--american-blue);
