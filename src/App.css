@@ -248,6 +248,54 @@ img {
   }
 }
 
+/* Contact Form CSS */
+
+/* Resume CSS */
+.hero {
+  background-color: #f0f0f0;
+  padding: 50px;
+  text-align: center;
+}
+
+.three-columns {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  max-width: 300px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+}
+
+.dot-list {
+  list-style: none;
+  text-align: justify;
+}
+
+.dot-list li {
+  /* display: inline-block; */
+  text-align: center;
+  margin-right: 0.5em; /* to add some space between the bullet point and the text */
+}
+
+.dot-list li::before {
+  content: "\2022";
+}
+
+
+
+
+
+
+
 /* #skills {
   padding: 300px 0 0 0; /* add top and bottom padding
 } */

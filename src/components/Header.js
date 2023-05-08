@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Header(props) {
-  const { currentTab, handleTabChange } = props;
+function Header() {
+  
 
     return (
       <div>
@@ -13,8 +13,7 @@ function Header(props) {
     <h3>🛠️ 🧰 🚧 Under Construction:  Please excuse the mess! 🚧 🧰 🛠️</h3>
     </div>
     <Nav
-      currentTab={currentTab}
-      handleTabChange={handleTabChange}
+     
     ></Nav>
     </header>
     {/* <div className="profie-photo">

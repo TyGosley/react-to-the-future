@@ -1,50 +1,67 @@
 import React from "react";
+// TODO: import react router dom
 
-function Nav(props) {
-    const { currentTab, handleTabChange } = props;
+function Nav() {
 
     return (
         <nav className="until--text-center">
         <ul>
             <li className="nav-item">
-                <a
-                    href="#about"
-                    onClick={() => handleTabChange("About")}
-                    // This is a conditional (ternary) operator that checks to see if the currentTab is equal to the name of the tab we're currently rendering. If it is, we set the current class name to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className={currentTab === "About" ? "nav-link active" : "nav-link"}
+                <button
+                    // href="#about"
+                    onClick={() => {
+                        console.log(document.querySelector("#about"));
+                        document.querySelector("#about").style="display:flex";
+                        document.querySelector(".cardCarousel").style="display:none";
+                        document.querySelector("#contact").style="display:none";
+                        document.querySelector("#resume").style="display:none";
+                    }}
+                    
                 >
                     About
-                </a>
+                </button>
             </li>
             <li className="nav-item">
-                <a
-                    href="#projects"
-                    onClick={() => handleTabChange("Projects")}
-                    // Check to see if the current tab is `Projects`, and if it is, we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentTab === "Projects" ? "nav-link active" : "nav-link"}
+                <button
+                    // href="#projects"
+                    onClick={() => {
+                        console.log(document.querySelector(".cardCarousel"));
+                        document.querySelector(".cardCarousel").style="display:flex";
+                        document.querySelector("#about").style="display:none";
+                        document.querySelector("#contact").style="display:none";
+                        document.querySelector("#resume").style="display:none";
+                    }}
                 >
                     Projects
-                </a>
+                </button>
             </li>
             <li className="nav-item">
-                <a
-                    href="#contact"
-                    onClick={() => handleTabChange("Contact")}
-                    // Check to see if the current tab is `Contact`, and if it is, we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentTab === "Contact" ? "nav-link active" : "nav-link"}
+                <button
+                    // href="#contact"
+                    onClick={() => {
+                        console.log(document.querySelector("#about"));
+                        document.querySelector("#about").style="display:none";
+                        document.querySelector(".cardCarousel").style="display:none";
+                        document.querySelector("#contact").style="display:block";
+                        document.querySelector("#resume").style="display:none";
+                    }}
                 >
                     Contact
-                </a>
+                </button>
             </li>
             <li className="nav-item">
-                <a
-                    href="#resume"
-                    onClick={() => handleTabChange("Resume")}
-                    // Check to see if the current tab is `Resume`, and if it is, we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentTab === "Resume" ? "nav-link active" : "nav-link"}
+                <button
+                    // href="#resume"
+                    onClick={() => {
+                        console.log(document.querySelector("#about"));
+                        document.querySelector("#about").style="display:none";
+                        document.querySelector(".cardCarousel").style="display:none";
+                        document.querySelector("#contact").style="display:none";
+                        document.querySelector("#resume").style="display:block";
+                    }}
                 >
                     Resume
-                </a>
+                </button>
             </li>
         </ul>
     </nav>

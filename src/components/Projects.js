@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section className="cardCarousel">
+    <section className="cardCarousel" style={{display:"none"}}>
       <div className="slider">
         <a href="#slide-1">1</a>
         <a href="#slide-2">2</a>

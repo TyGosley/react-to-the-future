@@ -34,8 +34,9 @@ function Contact() {
         console.log(formState);
     }
 
+    // TODO: mailto or plugin
     return (
-        <section id="contact" className="text-center">
+        <section id="contact" className="text-center" style={{display:"none"}}>
             <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
@@ -43,7 +44,7 @@ function Contact() {
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
+                    <label htmlFor="email">Email:</label>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div>
