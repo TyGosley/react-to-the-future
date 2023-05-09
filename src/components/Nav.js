@@ -4,7 +4,7 @@ import React from "react";
 function Nav() {
 
     return (
-        <nav className="until--text-center">
+        <nav className="navBar">
         <ul>
             <li className="nav-item">
                 <button

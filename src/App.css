@@ -73,7 +73,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../src/images/skyscraperback.jpg");
+  background-image: url("../src/images/skyscrapers-worms-eye-view-wallpaper.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -114,21 +114,52 @@ header button:hover {
 
 /* Hero Styles  */
 .hero {
-  background-image: url("../src/images/skyscraperback.jpg");
+  background-image: url("../src/images/skyscrapers-worms-eye-view-wallpaper.jpg");
   background-size: cover;
   background-position: center;
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
   background-attachment: fixed;
-  background-position: 100%;
+  background-position: 80%;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: var(--gray);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  color: var(--baby-blue-gray);
+  background-color: var(--skyscraper-night-gray);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+/* NavBar */
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav {
+  padding: 10px 0;
 }
 
 
-h2 {
+
+/* h2 {
   color: var(--american-blue);
-}
+} */
 
 .profile-photo {
   width: 200px;
@@ -142,34 +173,10 @@ h2 {
   padding: 10px;
 }
 
-section {
+/* section {
   margin-bottom: 50px;
-}
+} */
 
-nav {
-  padding: 10px 0;
-}
-nav a {
-  color: var(--american-blue);
-  font-size: 25px;
-}
-
-a {
-  color: var(--american-blue);
-}
-
-li {
-  list-style: none;
-  padding: 0 20px;
-}
-nav li {
-  display: inline;
-  padding: 0 10px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
 
 /* card carousel CSS */
 .cardCarousel {
@@ -193,7 +200,7 @@ nav a:hover {
 
 .slides {
   display: flex;
-
+  
   overflow-x: auto;
   scroll-snap-type: x mandatory;
 
@@ -330,30 +337,9 @@ img {
   content: "\2022";
 }
 
+/* Footer */
 
-
-
-
-
-
-/* #skills {
-  padding: 300px 0 0 0; /* add top and bottom padding
-} */
-
-/* Footer styles */
-/* footer {
-  text-align: center;
-  background: linear-gradient(
-    90deg,
-    #e4e1d9,
-    #a499b6,
-    #9085a7,
-    #655784,
-    #4a406c
-  );
-  color: var(black);
-  border-radius: 0.5rem black;
-  transition: all 0.5s ease-in-out;
-  box-shadow: inset 0rem 0rem 0.5rem var(--glossy-grape),
-    0 0 0.9375rem var(--deep-amethyst);
-} */
+li {
+  list-style: none;
+  padding: 0 20px;
+}
