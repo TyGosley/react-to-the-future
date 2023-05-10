@@ -193,18 +193,17 @@ nav {
 
 /* Projects: card carousel CSS (future development) */
 
-.projectSection {
-  background-color: var(--baby-blue-gray);
+#projectSection {
   padding: 20px;
 }
 
-.projectSection h2 {
+#projectSection h2 {
   font-size: 40px;
   color: var(--skyscraper-night-gray);
   text-align: center;
 }
 
-.projectSection p {
+#projectSection p {
   font-size: 20px;
   color: var(--skyscraper-night-gray);
   text-align: center;
@@ -221,6 +220,7 @@ nav {
   overflow: hidden;
   position: relative;
   margin: 0 auto;
+  background-color: var(--baby-blue-gray);
 }
 
 .slider {

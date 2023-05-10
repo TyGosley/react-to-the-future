@@ -2,11 +2,10 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="projectSection">
-      <h2>Projects</h2> 
-      <p>Check out my latest and greatest creations</p> 
-    <section className="cardCarousel" style={{display:"none"}}>
-      <div className="slider">
+    <section className="cardCarousel" style={{ display: "none" }}>
+      <div id="projectSection" className="slider">
+        <h2>Projects</h2>
+        <p> Click on the images below to view the deployed application</p>
         <a href="#slide-1">1</a>
         <a href="#slide-2">2</a>
         <a href="#slide-3">3</a>
@@ -26,7 +25,8 @@ function Projects() {
             <a
               href="https://metal-mindz.herokuapp.com/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/metal-mindz-BeAwe-ss.png")}
@@ -38,7 +38,8 @@ function Projects() {
             <a
               href="https://michaelx626.github.io/Film-Filter/index.html"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img src={require("../images/Film Filter.png")} alt="Slide 2" />
             </a>
@@ -47,7 +48,8 @@ function Projects() {
             <a
               href="https://tygosley.github.io/city-weather-monitor/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/city-weather-monitor-ss.png")}
@@ -59,7 +61,8 @@ function Projects() {
             <a
               href="https://github.com/TyGosley/workforce-tracker"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/workforce-tracker-ss.png")}
@@ -71,7 +74,8 @@ function Projects() {
             <a
               href="https://afternoon-springs-13154.herokuapp.com/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/digitial-pencil-pusher.png")}
@@ -83,7 +87,8 @@ function Projects() {
             <a
               href="https://github.com/TyGosley/team-profile-generator"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/team-assembled-profile-gen.png")}
@@ -95,7 +100,8 @@ function Projects() {
             <a
               href="https://tygosley.github.io/code-quiz/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/code-quiz-screenshot.png")}
@@ -107,7 +113,8 @@ function Projects() {
             <a
               href="https://tygosley.github.io/password-generator-js/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/password-generator-ss.png")}
@@ -119,7 +126,8 @@ function Projects() {
             <a
               href="https://peaceful-citadel-63619.herokuapp.com/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img src={require("../images/TTron.png")} alt="Slide 9" />
             </a>
@@ -128,7 +136,8 @@ function Projects() {
             <a
               href="https://tygosley.github.io/stark-internship/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/starkindustires-ss.png")}
@@ -140,7 +149,8 @@ function Projects() {
             <a
               href="https://obscure-fortress-82547.herokuapp.com/"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img
                 src={require("../images/nerdy-byte-beat-ss.png")}
@@ -152,7 +162,8 @@ function Projects() {
             <a
               href="https://github.com/TyGosley/friends-with-API-tions"
               target="_blank"
-              onclick="window.open('','_blank');return false;" rel="noreferrer"
+              onclick="window.open('','_blank');return false;"
+              rel="noreferrer"
             >
               <img src={require("../images/fwAPI.png")} alt="Slide 12" />
             </a>
@@ -166,7 +177,7 @@ function Projects() {
         </div>
       </div>
     </section>
-    </div>
+    // </div>
   );
 }
 
