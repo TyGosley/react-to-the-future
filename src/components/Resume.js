@@ -1,25 +1,31 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faSquareShareNodes } from "@fortawesome/free-solid-svg-icons";
+import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
+import { faJediOrder } from "@fortawesome/free-brands-svg-icons";
 
 function Resume() {
   return (
-    <div id="resume" style={{display:"none"}}>
+    <div id="resume" style={{ display: "none" }}>
       <section className="hero">
-        <h1>Welcome to the Resume of Tyler Gosley</h1>
-        <FontAwesomeIcon icon={faFileArrowDown} />
-        <p>Check out my list of Developer and Recruiting Proficiencies</p>
+        <div className="hero-text">
+          <h1>Welcome to the Resume of Tyler Gosley</h1>
+          <FontAwesomeIcon icon={faDownload} className="icon" />
+          <a href={require("../images/TylerGosleyResume.pdf")} download>
+            <button>Download Resume</button>
+          </a>
+          <p>Check out my list of Developer and Recruiting Proficiencies</p>
+        </div>
       </section>
 
       <section className="three-columns">
         <div className="container">
           <div className="column">
             <h2>Front-End Tech </h2>
+            <FontAwesomeIcon icon={faCode} className="icon" />
             <ul>
-              <li className="frontEnd-logo">
-                {/* <img src={require("#")} alt="Talent Acquisition Logo" /> */}
-              </li>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -30,10 +36,8 @@ function Resume() {
           </div>
           <div className="column">
             <h2>Back-End</h2>
+            <FontAwesomeIcon icon={faSquareShareNodes} className="icon" />
             <ul>
-              <li className="backEnd-logo">
-                {/* <img src={require("#")} alt="Talent Acquisition Logo" /> */}
-              </li>
               <li>Node.js</li>
               <li>Expres.js</li>
               <li>MySQL</li>
@@ -45,10 +49,8 @@ function Resume() {
           </div>
           <div className="column">
             <h2>Full Stack</h2>
+            <FontAwesomeIcon icon={faMicrochip} className="icon" />
             <ul>
-              <li className="ta-logo">
-                {/* <img src={require("#")} alt="Talent Acquisition Logo" /> */}
-              </li>
               <li>React</li>
               <li>MERN</li>
               <li>NoSQL</li>
@@ -60,16 +62,14 @@ function Resume() {
           </div>
         </div>
       </section>
-      <section className="hero">
+      <section className="talentSection">
         <h1>Talent Acquisition</h1>
+        <FontAwesomeIcon icon={faJediOrder} className="icon" />
         <p>
           Below are my skills for finding and hiring great candidates for
           technical roles.
         </p>
         <ul className="dot-list">
-          {/* className="ta-logo"> */}
-            {/* <img src={require("#")} alt="Talent Acquisition Logo" /> */}
-          
           <li>
             Sourcing candidates through various channels, such as job boards,
             LinkedIn, and networking events

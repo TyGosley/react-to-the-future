@@ -400,44 +400,95 @@ button[type="submit"]:hover {
 
 
 /* Resume CSS */
-.hero {
-  background-color: #f0f0f0;
-  padding: 50px;
+.three-columns {
+  padding: 50px 0;
+  background-color: #CAD4DF;
+}
+
+.three-columns h2 {
+  font-size: 40px;
+  color: #3B373B;
   text-align: center;
 }
 
-.three-columns {
-  padding: 50px 0;
+.three-columns p {
+  font-size: 20px;
+  color: #3B373B;
+  text-align: center;
+  padding: 10px;
 }
+
+/* Talent Section CSS */
+.talentSection {
+  background-color: #DDDBDE; 
+  padding: 50px;
+  text-align: center;
+  border: 5px solid #3B373B;
+  border-radius: 10px;
+}
+
+.talentSection h1 {
+  font-size: 40px;
+  color: #3B373B;
+  text-align: center;
+}
+
+.talentSection p {
+  font-size: 20px;
+  color: #3B373B;
+  text-align: center;
+  padding: 10px;
+}
+
 
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .column {
-  flex: 1;
+  /* flex: 1; */
   max-width: 300px;
-  background-color: #f0f0f0;
+  background-color: #DDDBDE;
   margin: 10px;
   padding: 20px;
+  /* display: block; */
+}
+
+.column li {
+  list-style: none;
+  padding: 3px;
+  font-size: 20px;
+  color: #3B373B;
+  text-align: left;
 }
 
 .dot-list {
   list-style: none;
   text-align: justify;
+  padding: 0;
+  margin: 0;
 }
 
 .dot-list li {
   /* display: inline-block; */
   text-align: center;
   margin-right: 0.5em; /* to add some space between the bullet point and the text */
+  
 }
 
 .dot-list li::before {
   content: "\2022";
 }
+
+.icon {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 
 /* Footer */
 
