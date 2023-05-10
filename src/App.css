@@ -157,15 +157,14 @@ nav {
 
 
 
-/* h2 {
-  color: var(--american-blue);
-} */
+/* About Me CSS */
 
 .profile-photo {
   width: 200px;
   height: auto;
   border-radius: 10%;
   position: relative;
+  padding: 10px;
 }
 
 .text-center {
@@ -173,9 +172,21 @@ nav {
   padding: 10px;
 }
 
-/* section {
-  margin-bottom: 50px;
-} */
+.text-center h2 {
+  font-size: 40px;
+  color: var(--skyscraper-night-gray);
+}
+
+.aboutMeParagraph {
+  padding: 10px;
+  color: var(--skyscraper-night-gray);
+  font-size: 20px;
+}
+
+#about {
+  background-color: var(--baby-blue-gray);
+  padding: 20px;
+}
 
 
 /* card carousel CSS */
