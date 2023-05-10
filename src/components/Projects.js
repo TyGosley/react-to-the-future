@@ -2,6 +2,9 @@ import React from "react";
 
 function Projects() {
   return (
+    <div className="projectSection">
+      <h2>Projects</h2> 
+      <p>Check out my latest and greatest creations</p> 
     <section className="cardCarousel" style={{display:"none"}}>
       <div className="slider">
         <a href="#slide-1">1</a>
@@ -163,6 +166,7 @@ function Projects() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

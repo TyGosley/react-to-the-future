@@ -1,7 +1,7 @@
 import React from "react";
 
 function About() {
-  return (
+  return ( 
     // Put input back in section tab after project style={{display:"none"}}
     <section id="about" className="text-center">
       <h2>About Me</h2>

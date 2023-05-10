@@ -177,6 +177,8 @@ nav {
   color: var(--skyscraper-night-gray);
 }
 
+
+
 .aboutMeParagraph {
   padding: 10px;
   color: var(--skyscraper-night-gray);
@@ -189,7 +191,26 @@ nav {
 }
 
 
-/* card carousel CSS */
+/* Projects: card carousel CSS (future development) */
+
+.projectSection {
+  background-color: var(--baby-blue-gray);
+  padding: 20px;
+}
+
+.projectSection h2 {
+  font-size: 40px;
+  color: var(--skyscraper-night-gray);
+  text-align: center;
+}
+
+.projectSection p {
+  font-size: 20px;
+  color: var(--skyscraper-night-gray);
+  text-align: center;
+  padding: 10px;
+}
+
 .cardCarousel {
   display: flex;
   flex-direction: row;
@@ -203,7 +224,7 @@ nav {
 }
 
 .slider {
-  width: 300px;
+  width: 500px;
   text-align: center;
   overflow: hidden;
   background-color: var(--white-coffee);
@@ -219,7 +240,7 @@ nav {
   -webkit-overflow-scrolling: touch;
 
   
-  scroll-snap-points-x: repeat(300px);
+  scroll-snap-points-x: repeat(600px);
   scroll-snap-type: mandatory;
  
 }
@@ -238,8 +259,8 @@ nav {
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   margin-right: 50px;
   border-radius: 10px;
   background: #eee;
@@ -277,7 +298,6 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: var(--american-blue); */
 }
 
 .slider > a {
