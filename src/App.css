@@ -38,10 +38,10 @@
 }
 
 :root {
-  --gray: #DDDBDE;
-  --baby-blue-gray: #CAD4DF;
-  --gun-metal-gray: #656E77;
-  --skyscraper-night-gray: #3B373B;
+  --gray: #dddbde;
+  --baby-blue-gray: #cad4df;
+  --gun-metal-gray: #656e77;
+  --skyscraper-night-gray: #3b373b;
 }
 
 * {
@@ -66,7 +66,7 @@ body {
 /* Header styles */
 header {
   padding: 20px 35px;
-  background-color: #D5F2EA;
+  background-color: #d5f2ea;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -97,7 +97,6 @@ header button {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
- 
 }
 
 header button:hover {
@@ -117,7 +116,7 @@ header button:hover {
   background-image: url("../src/images/skyscrapers-worms-eye-view-wallpaper.jpg");
   background-size: cover;
   background-position: center;
-  
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -155,8 +154,6 @@ nav {
   padding: 10px 0;
 }
 
-
-
 /* About Me CSS */
 
 .profile-photo {
@@ -177,8 +174,6 @@ nav {
   color: var(--skyscraper-night-gray);
 }
 
-
-
 .aboutMeParagraph {
   padding: 10px;
   color: var(--skyscraper-night-gray);
@@ -189,7 +184,6 @@ nav {
   background-color: var(--baby-blue-gray);
   padding: 20px;
 }
-
 
 /* Projects: card carousel CSS (future development) */
 
@@ -232,17 +226,15 @@ nav {
 
 .slides {
   display: flex;
-  
+
   overflow-x: auto;
   scroll-snap-type: x mandatory;
 
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
-  
   scroll-snap-points-x: repeat(600px);
   scroll-snap-type: mandatory;
- 
 }
 
 .slides::-webkit-scrollbar {
@@ -274,7 +266,7 @@ nav {
   font-size: 100px;
 }
 .slides > div:target {
-    transform: scale(0.8);
+  transform: scale(0.8);
 }
 /* .author-info {
   background: rgba(0, 0, 0, 0.75);
@@ -333,7 +325,7 @@ img {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background-color: #CAD4DF;
+  background-color: #cad4df;
 }
 
 h2 {
@@ -378,7 +370,7 @@ textarea {
 
 button[type="submit"] {
   padding: 1rem 2rem;
-  background-color: #3B373B;
+  background-color: #3b373b;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -397,49 +389,69 @@ button[type="submit"]:hover {
   margin-top: 0.5rem;
 }
 
-
-
 /* Resume CSS */
+
+.resDownload {
+  text-align: center;
+  padding: 10px;
+  background-color: #cad4df;
+}
+
+.resDownload h1 {
+  font-size: 40px;
+  color: #3b373b;
+  text-align: center;
+}
+
+.resDownload p {
+  font-size: 20px;
+  color: #3b373b;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Three Columns CSS Resume.js */
+
 .three-columns {
   padding: 50px 0;
-  background-color: #CAD4DF;
+  background-color: #cad4df;
 }
 
 .three-columns h2 {
   font-size: 40px;
-  color: #3B373B;
+  color: #3b373b;
   text-align: center;
 }
 
 .three-columns p {
   font-size: 20px;
-  color: #3B373B;
+  color: #3b373b;
   text-align: center;
   padding: 10px;
 }
 
-/* Talent Section CSS */
+/* Talent Section CSS resume.js */
 .talentSection {
-  background-color: #DDDBDE; 
+  background-color: #dddbde;
   padding: 50px;
   text-align: center;
-  border: 5px solid #3B373B;
+  border: 5px solid #3b373b;
   border-radius: 10px;
 }
 
 .talentSection h1 {
   font-size: 40px;
-  color: #3B373B;
+  color: #3b373b;
   text-align: center;
 }
 
 .talentSection p {
   font-size: 20px;
-  color: #3B373B;
+  color: #3b373b;
   text-align: center;
   padding: 10px;
 }
-
 
 .container {
   display: flex;
@@ -451,7 +463,7 @@ button[type="submit"]:hover {
 .column {
   /* flex: 1; */
   max-width: 300px;
-  background-color: #DDDBDE;
+  background-color: #dddbde;
   margin: 10px;
   padding: 20px;
   /* display: block; */
@@ -461,7 +473,7 @@ button[type="submit"]:hover {
   list-style: none;
   padding: 3px;
   font-size: 20px;
-  color: #3B373B;
+  color: #3b373b;
   text-align: left;
 }
 
@@ -476,7 +488,6 @@ button[type="submit"]:hover {
   /* display: inline-block; */
   text-align: center;
   margin-right: 0.5em; /* to add some space between the bullet point and the text */
-  
 }
 
 .dot-list li::before {
@@ -488,7 +499,6 @@ button[type="submit"]:hover {
   text-align: center;
   margin-bottom: 30px;
 }
-
 
 /* Footer */
 

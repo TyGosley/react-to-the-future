@@ -9,12 +9,11 @@ import { faJediOrder } from "@fortawesome/free-brands-svg-icons";
 function Resume() {
   return (
     <div id="resume" style={{ display: "none" }}>
-      <section className="hero">
-        <div className="hero-text">
+      <section className="resDownload">
+        <div>
           <h1>Welcome to the Resume of Tyler Gosley</h1>
-          <FontAwesomeIcon icon={faDownload} className="icon" />
-          <a href={require("../images/TylerGosleyResume.pdf")} download>
-            <button>Download Resume</button>
+          <a href={process.env.REACT_APP_RESUME_LINK} download>
+            <FontAwesomeIcon icon={faDownload} className="icon" />
           </a>
           <p>Check out my list of Developer and Recruiting Proficiencies</p>
         </div>
