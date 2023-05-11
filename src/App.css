@@ -436,8 +436,6 @@ button[type="submit"]:hover {
   background-color: #dddbde;
   padding: 50px;
   text-align: center;
-  border: 5px solid #3b373b;
-  border-radius: 10px;
 }
 
 .talentSection h1 {
@@ -466,6 +464,7 @@ button[type="submit"]:hover {
   background-color: #dddbde;
   margin: 10px;
   padding: 20px;
+  border-radius: 10px;
   /* display: block; */
 }
 
@@ -502,7 +501,44 @@ button[type="submit"]:hover {
 
 /* Footer */
 
-li {
+.footer {
+  background-color: #3b373b;
+  color: #dddbde;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.footer ul {
+  display: inline-block;
   list-style: none;
-  padding: 0 20px;
+  margin: 0;
+  padding: 10px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.footer li a {
+  color: blue;
+}
+
+.footer li.githubLogo a {
+  color: #dddbde;
+}
+
+.footer li.linkedInLogo a {
+  color: #5B51D8;
+}
+
+.footer li.instagramLogo a {
+  color: #C13584;
+}
+
+.footer li:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 }
