@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-to-the-future/static/css/main.178f8e3d.css",
-    "main.js": "/react-to-the-future/static/js/main.da9cc2e8.js",
+    "main.js": "/react-to-the-future/static/js/main.ed5f03e8.js",
     "static/js/787.28d01bd2.chunk.js": "/react-to-the-future/static/js/787.28d01bd2.chunk.js",
     "static/media/nerdy-byte-beat-ss.png": "/react-to-the-future/static/media/nerdy-byte-beat-ss.86018d1ab5d6058c5fa0.png",
     "static/media/skyscrapers-worms-eye-view-wallpaper.jpg": "/react-to-the-future/static/media/skyscrapers-worms-eye-view-wallpaper.0a01a335bc9bfd2f3cf9.jpg",
@@ -20,11 +20,11 @@
     "static/media/Film Filter.png": "/react-to-the-future/static/media/Film Filter.66d8f359e29f4d417c69.png",
     "index.html": "/react-to-the-future/index.html",
     "main.178f8e3d.css.map": "/react-to-the-future/static/css/main.178f8e3d.css.map",
-    "main.da9cc2e8.js.map": "/react-to-the-future/static/js/main.da9cc2e8.js.map",
+    "main.ed5f03e8.js.map": "/react-to-the-future/static/js/main.ed5f03e8.js.map",
     "787.28d01bd2.chunk.js.map": "/react-to-the-future/static/js/787.28d01bd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.178f8e3d.css",
-    "static/js/main.da9cc2e8.js"
+    "static/js/main.ed5f03e8.js"
   ]
 }
