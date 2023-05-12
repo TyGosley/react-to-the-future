@@ -26,7 +26,7 @@ Coming to the end of the UCLA extension Full Stack Development, I needed a place
 
 ---
 
-To view my React Profile, React to the Future, please click 👉 [Here](#TODO: add deployable page)
+To view my React Profile, React to the Future, please click 👉 [Here](https://tygosley.github.io/react-to-the-future/)
 
 ## Installation
 

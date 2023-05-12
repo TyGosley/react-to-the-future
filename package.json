@@ -2,6 +2,7 @@
   "name": "react-to-the-future",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tygosley.github.io/react-to-the-future/",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
