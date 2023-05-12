@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-to-the-future/static/css/main.178f8e3d.css",
+    "main.js": "/react-to-the-future/static/js/main.da9cc2e8.js",
+    "static/js/787.28d01bd2.chunk.js": "/react-to-the-future/static/js/787.28d01bd2.chunk.js",
+    "static/media/nerdy-byte-beat-ss.png": "/react-to-the-future/static/media/nerdy-byte-beat-ss.86018d1ab5d6058c5fa0.png",
+    "static/media/skyscrapers-worms-eye-view-wallpaper.jpg": "/react-to-the-future/static/media/skyscrapers-worms-eye-view-wallpaper.0a01a335bc9bfd2f3cf9.jpg",
+    "static/media/team-assembled-profile-gen.png": "/react-to-the-future/static/media/team-assembled-profile-gen.cdbec74a5ce1ed4384dc.png",
+    "static/media/city-weather-monitor-ss.png": "/react-to-the-future/static/media/city-weather-monitor-ss.f93adc6f4e08f698bd06.png",
+    "static/media/metal-mindz-BeAwe-ss.png": "/react-to-the-future/static/media/metal-mindz-BeAwe-ss.27c10d7f5a9991bde26d.png",
+    "static/media/fwAPI.png": "/react-to-the-future/static/media/fwAPI.855c7621aac1a5943ed9.png",
+    "static/media/visionary.jpg": "/react-to-the-future/static/media/visionary.ae96bbd20af8e87632e5.jpg",
+    "static/media/TTron.png": "/react-to-the-future/static/media/TTron.14c93d2573ffc77a6aba.png",
+    "static/media/workforce-tracker-ss.png": "/react-to-the-future/static/media/workforce-tracker-ss.c1144dcd0544ec357686.png",
+    "static/media/starkindustires-ss.png": "/react-to-the-future/static/media/starkindustires-ss.46fd958e711ed2cf2f88.png",
+    "static/media/COhikepic.jpg": "/react-to-the-future/static/media/COhikepic.8629a0bddccda165fd1a.jpg",
+    "static/media/code-quiz-screenshot.png": "/react-to-the-future/static/media/code-quiz-screenshot.299d1027eeea62c2456e.png",
+    "static/media/digitial-pencil-pusher.png": "/react-to-the-future/static/media/digitial-pencil-pusher.19719df3bfc1da4846f3.png",
+    "static/media/password-generator-ss.png": "/react-to-the-future/static/media/password-generator-ss.eecd1181af84fb7a6c4d.png",
+    "static/media/Film Filter.png": "/react-to-the-future/static/media/Film Filter.66d8f359e29f4d417c69.png",
+    "index.html": "/react-to-the-future/index.html",
+    "main.178f8e3d.css.map": "/react-to-the-future/static/css/main.178f8e3d.css.map",
+    "main.da9cc2e8.js.map": "/react-to-the-future/static/js/main.da9cc2e8.js.map",
+    "787.28d01bd2.chunk.js.map": "/react-to-the-future/static/js/787.28d01bd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.178f8e3d.css",
+    "static/js/main.da9cc2e8.js"
+  ]
+}
