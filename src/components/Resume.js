@@ -12,7 +12,7 @@ function Resume() {
       <section className="resDownload">
         <div>
           <h1>Welcome to the Resume of Tyler Gosley</h1>
-          <a href="https://drive.google.com/file/d/1ZkJfnUBHFwnBtbhQOJgsB3LICzCvRYtZ/view?usp=sharing" download>
+          <a href={process.env.REACT_APP_RESUME_LINK} download>
             <FontAwesomeIcon icon={faDownload} className="icon" />
           </a>
           <p>Check out my list of Developer and Recruiting Proficiencies</p>
