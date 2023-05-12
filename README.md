@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# React to the Future
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+---
 
-### `npm start`
+Coming to the end of the UCLA extension Full Stack Development, I needed a place to showcase who I am, what I have learned, and what I have created. Welcome to my first React Portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Link](#link)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Licenses](#licenses)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Credits](#credits)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Link
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To view my React Profile, React to the Future, please click 👉 [Here](#TODO: add deployable page)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository from GitHub
+1. Install `node.js`
+1. Run `npm install` to install dependencies
+1. Run `npm start` to start the web server and connect
 
-### `npm run eject`
+**Notable Dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- formspree/react: 2.4.1
+- fortawesome/react-fontawesome
+- dotenv
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Once everything is installed, simply use `npm start` in your root command line. This will connect and run your React application.
 
-## Learn More
+For the contact form I used formspree. To use this you must create an account on [formspree](https://formspree.io/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshot
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Homepage**
 
-### Analyzing the Bundle Size
+![](./src/images/react2thefutureHome.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Projects Section**
+![](/src/images/react2thefutureProjects.png)
 
-### Making a Progressive Web App
+**Resume Section**
+![](./src/images/react2thefutureRes.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Licenses
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+      This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+If you have any suggestions, please reach out!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tests
+
+N/A
+
+---
+
+## Questions
+
+Have questions about this project? Please reach out to me.
+
+| GitHub Username             | Email              |
+| --------------------------- | ------------------ |
+| https://github.com/TyGosley | tygosley@gmail.com |
+
+## Credits
+
+---
+
+[React](https://react.dev/)
+
+[FormSpree](https://formspree.io/)
+
+[dotenv](https://www.npmjs.com/package/dotenv)
+
+[Font Awesome](https://fontawesome.com/icons)
+
+[Node.JS](https://nodejs.org/en/docs)
+
+[Express.JS](https://expressjs.com/en/guide/routing.html#express-router)
+
+[Codecademy](https://www.codecademy.com/learn)
+
+[Khan Academy](https://www.khanacademy.org/)
+
+[MDN Docs](https://developer.mozilla.org/en-US/)
+
+[W3Schools](https://www.w3schools.com/js/default.asp)
+
+[JavaScript.info](https://javascript.info/)
+
+[CodeHS](https://codehs.com/)
